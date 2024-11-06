@@ -8,9 +8,6 @@ This project implements a secure OTP-based login and verification system using R
 - **Session Storage**: Temporarily stores OTP and user email during the verification process.
 - **Alert Notifications**: SweetAlert2 alerts for user feedback.
 
-## Screenshots
-*Screenshots of Login and OTP Verification pages.*
-
 ## Getting Started
 ### Prerequisites
 - Node.js
@@ -32,4 +29,17 @@ This project implements a secure OTP-based login and verification system using R
    ```
 
 ## Folder Structure
-├── public ├── src │ ├── components │ │ ├── LoginPage.js │ │ ├── OTPVerification.js │ │ └── Navbar.js │ ├── images │ ├── App.js │ └── index.js ├── package.json └── README.md
+login
+├── public               # Public assets
+│   └── index.html       # HTML entry point
+├── src                  # Source files
+│   ├── components       # React components
+│   │   ├── LoginPage.js         # Email login and OTP request
+│   │   ├── OTPVerification.js   # OTP entry and validation
+│   │   └── Navbar.js            # Navigation bar with logo
+│   ├── images           # Image assets
+│   ├── App.js           # Main application component
+│   ├── index.js         # React entry point
+│   └── styles.css       # Custom styles (if needed)
+├── package.json         # Project dependencies and scripts
+└── README.md            # Project overview and setup instructions
